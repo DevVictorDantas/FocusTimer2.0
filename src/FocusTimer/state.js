@@ -3,7 +3,7 @@ export default {
   seconds: 0,
   isRunning: false,
   isMute: true,
-  isSound: false
+  countdownId: null
 }
 
 // exportar por padrão um objeto

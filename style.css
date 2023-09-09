@@ -94,7 +94,7 @@ html:not(.running) .ph-pause-circle {
   display: none;
 }
 
-#sounds > button[data-sound="true"] {
+#sounds > .press {
   background-color: var(--bg-sounds-secondary);
   color: var(--bg-color);
 }
