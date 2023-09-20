@@ -1,0 +1,7 @@
+export var play = document.getElementById("play")
+export var pause = document.getElementById("pause")
+export var stop = document.getElementById("stop")
+export var increase = document.getElementById("increase")
+export var decrease = document.getElementById("decrease")
+export var minutes = document.getElementById("minutes")
+export var seconds = document.getElementById("seconds")
