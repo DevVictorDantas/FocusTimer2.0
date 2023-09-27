@@ -7,5 +7,6 @@ export function toggleRunning() {
 }
 
 export function stop() {
-  console.log("stop")
+  state.isRunning = false
+  document.documentElement.classList.remove("running")
 }

@@ -9,7 +9,5 @@ export function start(minutes, seconds) {
 }
 
 export function sounds() {
-  events.registerSounds()
+  events.toggleSounds()
 }
-
-export function stop() {}

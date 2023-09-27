@@ -12,7 +12,7 @@ export function registerControls() {
   })
 }
 
-export function registerSounds() {
+export function toggleSounds() {
   buttonSounds.addEventListener("click", event => {
     event.target.classList.toggle("press")
   })
