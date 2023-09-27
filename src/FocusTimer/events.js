@@ -14,10 +14,6 @@ export function registerControls() {
 
 export function registerSounds() {
   buttonSounds.addEventListener("click", event => {
-    const pressed = event.target.dataset.action
-    if (typeof actions[pressed] != "function") {
-      return
-    }
-    actions[pressed]
+    event.target.classList.toggle("press")
   })
 }
