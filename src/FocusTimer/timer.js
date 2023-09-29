@@ -4,6 +4,8 @@ import { stop } from "./actions.js"
 // função pra atualizar o contador
 
 export function countdown() {
+  clearTimeout(state.countdownId)
+
   if (!state.isRunning) {
     return
   }
@@ -25,7 +27,7 @@ export function countdown() {
 
   updateDisplay(minutes, seconds)
 
-  setTimeout(() => countdown(), 1000) //setTimeout ele executa uma função  depois de um determinado tempo
+  state.countdownId = setTimeout(() => countdown(), 1000) //setTimeout ele executa uma função  depois de um determinado tempo
 }
 
 export function updateDisplay(minutes, seconds) {

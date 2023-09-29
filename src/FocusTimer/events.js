@@ -4,10 +4,15 @@ import {
   decrease,
   minutes,
   seconds,
-  buttonSounds
+  buttonSounds,
+  soundFlorest,
+  soundRain,
+  soundCoffee,
+  soundFire
 } from "./elements.js"
 import * as actions from "./actions.js"
 import { updateDisplay } from "./timer.js"
+import * as sounds from "./sounds.js"
 
 export function registerControls() {
   controls.addEventListener("click", event => {
@@ -48,8 +53,46 @@ export function decTime() {
   })
 }
 
-export function toggleSounds() {
-  buttonSounds.addEventListener("click", event => {
+export function toggleFlorest() {
+  soundFlorest.addEventListener("click", event => {
     event.target.classList.toggle("press")
+    if (soundFlorest.classList.contains("press")) {
+      sounds.buttonTree.play()
+    } else {
+      sounds.buttonTree.pause()
+    }
+  })
+}
+
+export function toggleRain() {
+  soundRain.addEventListener("click", event => {
+    event.target.classList.toggle("press")
+    if (soundRain.classList.contains("press")) {
+      sounds.buttonRain.play()
+    } else {
+      sounds.buttonRain.pause()
+    }
+  })
+}
+
+export function toggleCoffee() {
+  soundCoffee.addEventListener("click", event => {
+    event.target.classList.toggle("press")
+    if (soundCoffee.classList.contains("press")) {
+      sounds.buttonCoffee.play()
+    } else {
+      sounds.buttonCoffee.pause()
+    }
+  })
+}
+
+export function toggleFire() {
+  soundFire.addEventListener("click", event => {
+    event.target.classList.toggle("press")
+    if (soundFire.classList.contains("press")) {
+      sounds.buttonFire.play()
+    } else {
+      sounds.buttonFire.pause()
+    }
   })
 }

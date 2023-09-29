@@ -17,5 +17,8 @@ export function addDec() {
 }
 
 export function sounds() {
-  events.toggleSounds()
+  events.toggleFlorest()
+  events.toggleRain()
+  events.toggleCoffee()
+  events.toggleFire()
 }
