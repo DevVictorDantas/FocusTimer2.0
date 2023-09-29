@@ -1,2 +1,6 @@
 export const controls = document.getElementById("controls")
 export const buttonSounds = document.getElementById("sounds")
+export const minutes = document.getElementById("minutes")
+export const seconds = document.getElementById("seconds")
+export const increase = document.getElementById("increase")
+export const decrease = document.getElementById("decrease")

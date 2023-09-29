@@ -1,5 +1,7 @@
 import * as FocusTimer from "./FocusTimer/index.js"
 
-FocusTimer.start(0, 5)
+FocusTimer.start(0, 0)
 
 FocusTimer.sounds()
+
+FocusTimer.addDec()
