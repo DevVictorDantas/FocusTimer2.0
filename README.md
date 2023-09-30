@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://devvictordantas.github.io/FocusTimer2.0/">
-  <img alt="Relógio" src=".github/preview.png" width="100%">
+  <img alt="Relógio" src="./assets/Timer2.0.png" width="100%">
   </a>
 </p>
 
