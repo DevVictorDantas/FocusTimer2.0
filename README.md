@@ -24,4 +24,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto utilizando HTML, CSS E JavaScript para criar um Timer.
 
- <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/victor-de-s%C3%A1-04922923b/">Victor Dantas</a> ☕</h3>
+ <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/victor-dantas-04922923b/">Victor Dantas</a> ☕</h3>
